@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario </title>
+    <link rel="icon" href="images/lanchita.jpg" type="icon">
+    <link rel="stylesheet" href="style/styles.css">
+
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+        <article>
+            <div class="card">
+                <h1>Contactanos</h1>
+                <div class="card-container">
+                    <form>
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" placeholder="Escribe aqui">
+
+                        <label for="lastname">Apellido</label>
+                        <input type="text" id="lastname" placeholder="Escribe aqui" >
+
+                        <label for="birth">Fecha de nacimiento</label>
+                        <input type="date" id="birth" placeholder="Escribe aqui"> 
+
+                        <label for="email">Correo electronico</label>
+                        <input type="email" id="email" placeholder="Escribe aqui" >
+
+                        <label for="country">Pais</label>
+                        <select id="country">
+                            <option value="null" disabled selected> Elige un pais</option>
+                            <option value="RD">Republica Dominicana</option>
+                            <option value="MX">Mexico</option>
+                            <option value="AR">Argentina</option>
+                            <option value="CO">Colombia</option>
+                            <option value="USA">Estados Unidos</option>
+                            <option value="CA">Canada</option>
+                            <option value="CN">China</option>
+                            <option value="JP">Japon</option>
+                        </select>
+
+                        <div class="option">
+
+                            <p>Genero</p>
+                            <br>
+                            <input type="radio" value="M" id="M"  name="gender">
+                            <label for="M"> Maculino</label>
+
+                            <input type="radio" value="F" id="F"  name="gender">
+                            <label for="F"> Feminino </label>
+
+                            <input type="radio" value="NE" id="NE"  name="gender">
+                            <label for="F"> No especificar</label>
+
+                            <input type="radio" value="Ot" id="Ot"  name="gender">
+                            <label for="F"> Otros </label>
+                            
+                        </div>
+
+                            
+                            <label for="identification" class="btn-file">Cedula</label>
+                            <input type="file" name="identification" id="identification" accept=".jpg, .jpeg, .png, .doc, .pdf, .docx">
+                       
+
+                        <div class="option">
+
+                            <p>Que eres?</p>
+                            <br>
+                            <input type="checkbox" value="human" id="human" name="who">
+                            <label for="who">Humano</label>
+
+                            <input type="checkbox" value="robot" id="robot" name="who">
+                            <label for="who">Robot</label>
+
+                            <input type="checkbox" value="alien" id="alien" name="who">
+                            <label for="who">Alien</label>
+
+                        </div>
+
+                        <label for="message">Mensajes</label>
+                        <textarea name="message" id="message" cols="10" rows="10"></textarea>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="submit" value="Enviar">
+                        <input type="reset">
+
+
+                    </form>
+                </div>
+    
+            </div>
+        </article>
+    </section>
+        
+    </main>
+</body>
+</html>

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  20px;;
+}
+
+body{
+
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    background-image: url(../images/pinku.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+main {
+    width: 100%;
+    height: 90%;
+  }
+h1{
+    font-size: 25px;
+    padding: 25px;
+    margin: 5px;
+    text-align: center;
+    color: #e30052;
+}
+
+article {
+
+    
+    width: 50%;
+    padding: 25px;
+    transition: 0.3s;
+    margin: 35px auto;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #fad0c4;
+    box-shadow: o 4px 8px 0 rgb(0, 0, 0, 0.2);
+    color: #e30052;
+    
+  }
+
+article:hover{
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="date"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
+  
+.option {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+  
+input[type="file"] {
+    display: none;  
+  }
+  
+.btn-file {
+    width: 100%;
+    cursor: pointer;
+    margin-top: 6px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+  }
+  
+input[type="submit"], input[type="reset"] {
+    background-color: forestgreen;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type="reset"] {
+   background-color: #DC3545 !important;
+
+  }
